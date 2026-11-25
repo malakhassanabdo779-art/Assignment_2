@@ -1,0 +1,32 @@
+ 
+1_ CODE EXPLNATION 
+
+example 1 c code 
+    pid_t pid  // is a data type  
+ fork() // use to know who is the parent and the child   
+    if (pid == 0) if pid ( for example 2233) is = i will print itis child 
+      
+  else if (pid > 0 ) is parent
+   else is incorrect fork 
+example 2 c code
+include <stdio.h> ashan a2dr a3ml printf
+ hello // class
+     printf(" hello from file1 \n after updated  ");
+
+then add file 2 for calling this method 
+and make a linker in output  to connect between object files 1,2 in exe 
+ example 3 
+
+   printf(" this is a simple program \n");
+   return 0 ;
+just a simple code to make a loader b load data 3shan a put it in memory 
+ makefile:
+file contains some rules bdl gcc f kol wahed 
+CC= gcc
+.phony all clean (name of files)
+all( collect  all compliation)
+clean: ddelete exe files from compliation
+make : compile  
+  2- THEORY 
+JOB OF LINKER : link files and connected objectcode with eachother " collect all object files "
+JOB OF LOADER: load library with exe into memory 
